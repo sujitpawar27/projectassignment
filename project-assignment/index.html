@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>King Burger</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.svg">
+</head>
+
+<body style="background-color: black ; color: white;">
+        <ul>
+        <h1><center>King Burger</center></h1>
+        <li class="active"><a>Home</a></li>
+        <li><a id="cart">Cart</a></li>
+    </ul>
+
+    <div class="filter-container">
+        <label for="filter">Category:</label>
+        <select id="filter">
+            <option value="option1">select</option>
+            <option value="burger">Burger</option>
+            <option value="fries">Fries</option>
+            <option value="meal">Meal</option>
+            <option value="coke">Coke</option>
+            <option value="veg">Veg</option>
+            <option value="nonveg">Non Veg</option>
+        </select>
+    </div>
+
+    <div class="search-container">
+        <label for="search">Search:</label>
+        <input type="text" id="search" placeholder="Enter keywords...">
+    </div>
+
+    <div id="card-container"></div>
+
+    <script type="module" src="items.js"></script>
+    <script type="module" src="meals.js"></script>
+    <script type="module" src="cart.js"></script>
+    <script type="module" src="home.js"></script>
+</body>
+
+</html>

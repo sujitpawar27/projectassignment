@@ -1,0 +1,62 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+h1{
+    color: white;
+}
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: #04AA6D;
+}
+
+.card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    width: 23%;
+
+    box-sizing: border-box;
+    display: inline-block;
+
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+
+    max-height: 150px;
+}
+
+
+#card-container {
+    text-align: center;
+}
+
+
+.filter-container,
+.search-container {
+    margin-bottom: 20px;
+}
